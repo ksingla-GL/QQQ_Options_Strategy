@@ -42,6 +42,9 @@ run_backtest.py      one backtest
 sweep.py             several variants over the same days in one pass
 veto_test.py         a base run, then the ML filter on top, walk-forward
 EXPERIMENTS.md       the exact command behind every result below
+docs/
+  QQQ_Weekly_Credit_Spread_Spec_v1.pdf       the strategy as specified
+  QQQ_Credit_Spread_Backtest_Report_v1.pdf   the full backtest report
 ```
 
 ## Setup
