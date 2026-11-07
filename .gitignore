@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Secrets: the data API key lives in QQQ_OPTIONS_HOME, never in the repo
+API_key.txt
+*.key
+.env
+
+# Option data, caches and results live in QQQ_OPTIONS_HOME, outside the repo.
+# The raw option data is licensed and must never be committed.
+*.parquet
+*.csv
+data/
+cache/
+results/
+logs/
+
+# Local folders that are not part of this repo
+docs/
+research/
+vol_etf/
